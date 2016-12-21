@@ -58,7 +58,7 @@
     TelestraListItem *dataListItem = [[TelestraListItemManager sharedManager].dataItems objectAtIndex:indexPath.row];
     cell.itemDescription.text = dataListItem.detailDescription;
     cell.itemHeading.text = dataListItem.heading;
-    NSString *imageNotFoundFile  = [[NSBundle mainBundle] pathForResource:@"ImageNotFound" ofType:@"jpg"];
+    NSString *imageNotFoundFile  = [[NSBundle mainBundle] pathForResource:@"no-image-found" ofType:@"png"];
     if (!dataListItem.isImageDownloaded) {
         
         if (![dataListItem.imageURL isEqualToString:@""]) {
@@ -115,7 +115,6 @@
     
     iCell.itemIconImageView.translatesAutoresizingMaskIntoConstraints = NO;
     [iCell.contentView addSubview:iCell.itemIconImageView];
-    // Adding constraints to itemIconImageView
     [iCell.contentView addConstraint:[NSLayoutConstraint constraintWithItem:iCell.itemIconImageView
                                                                   attribute:NSLayoutAttributeTrailing
                                                                   relatedBy:NSLayoutRelationEqual
@@ -268,7 +267,7 @@
     UIButton *btn = [[UIButton alloc]init];
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"refresh" ofType:@"png"];
     [btn setBackgroundImage:[UIImage imageNamed:filePath] forState:UIControlStateNormal];
-    btn.frame = CGRectMake(100, 100, 18, 17);
+    btn.frame = CGRectMake(100, 100, 25, 25);
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
     [btn addTarget:self action:@selector(refreshButtonAction:) forControlEvents:UIControlEventTouchUpInside];
 }

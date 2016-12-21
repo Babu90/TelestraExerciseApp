@@ -47,7 +47,7 @@
     UIView *view = [[UIView alloc] initWithFrame:self.bounds];
     CAGradientLayer *gradient = [CAGradientLayer layer];
     gradient.frame = view.bounds;
-    gradient.colors = [NSArray arrayWithObjects:(id)[[TelestraCellListView UIColorFromHex:0x1585BB alphaParam:1.0] CGColor], (id)[[TelestraCellListView UIColorFromHex:0x5FD8F3 alphaParam:1.0] CGColor], nil];
+    gradient.colors = [NSArray arrayWithObjects:(id)[[TelestraCellListView UIColorFromHex:0x353F42 alphaParam:1.0] CGColor], (id)[[TelestraCellListView UIColorFromHex:0xACB1B1 alphaParam:1.0] CGColor], nil];
     
     [self setBackgroundView:[[UIView alloc] init]];
     [self.backgroundView.layer insertSublayer:gradient atIndex:0];

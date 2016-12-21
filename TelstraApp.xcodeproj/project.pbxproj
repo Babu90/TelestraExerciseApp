@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C453FDFD1E0AFAB300C06279 /* no-image-found.png in Resources */ = {isa = PBXBuildFile; fileRef = C453FDFC1E0AFAB300C06279 /* no-image-found.png */; };
+		C453FDFF1E0AFAC400C06279 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = C453FDFE1E0AFAC400C06279 /* refresh.png */; };
 		C4C0A8D11E0AE47000AACFD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A8D01E0AE47000AACFD9 /* main.m */; };
 		C4C0A8D41E0AE47000AACFD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A8D31E0AE47000AACFD9 /* AppDelegate.m */; };
 		C4C0A8E81E0AE5D700AACFD9 /* TelestraListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A8E71E0AE5D700AACFD9 /* TelestraListItem.m */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C453FDFC1E0AFAB300C06279 /* no-image-found.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "no-image-found.png"; path = "../../../Downloads/no-image-found.png"; sourceTree = "<group>"; };
+		C453FDFE1E0AFAC400C06279 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = ../../../Downloads/refresh.png; sourceTree = "<group>"; };
 		C4C0A8CC1E0AE47000AACFD9 /* TelstraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelstraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C0A8D01E0AE47000AACFD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4C0A8D21E0AE47000AACFD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 		C4C0A8F01E0AE63800AACFD9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C453FDFE1E0AFAC400C06279 /* refresh.png */,
+				C453FDFC1E0AFAB300C06279 /* no-image-found.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C453FDFD1E0AFAB300C06279 /* no-image-found.png in Resources */,
+				C453FDFF1E0AFAC400C06279 /* refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +359,7 @@
 				C4C0A8E51E0AE47000AACFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
