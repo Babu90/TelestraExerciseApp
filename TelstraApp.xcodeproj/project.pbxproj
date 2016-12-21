@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		C4C0A8D11E0AE47000AACFD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A8D01E0AE47000AACFD9 /* main.m */; };
 		C4C0A8D41E0AE47000AACFD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A8D31E0AE47000AACFD9 /* AppDelegate.m */; };
-		C4C0A8D71E0AE47000AACFD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A8D61E0AE47000AACFD9 /* ViewController.m */; };
-		C4C0A8DA1E0AE47000AACFD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C0A8D81E0AE47000AACFD9 /* Main.storyboard */; };
-		C4C0A8DC1E0AE47000AACFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C0A8DB1E0AE47000AACFD9 /* Assets.xcassets */; };
-		C4C0A8DF1E0AE47000AACFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C0A8DD1E0AE47000AACFD9 /* LaunchScreen.storyboard */; };
+		C4C0A8E81E0AE5D700AACFD9 /* TelestraListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A8E71E0AE5D700AACFD9 /* TelestraListItem.m */; };
+		C4C0A8EB1E0AE5FB00AACFD9 /* TelestraListItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A8EA1E0AE5FB00AACFD9 /* TelestraListItemManager.m */; };
+		C4C0A8F31E0AE67F00AACFD9 /* TelestraCellListView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A8F21E0AE67F00AACFD9 /* TelestraCellListView.m */; };
+		C4C0A8F61E0AE6BA00AACFD9 /* TelstraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0A8F51E0AE6BA00AACFD9 /* TelstraViewController.m */; };
+		C4C0A8F91E0AE7AB00AACFD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C0A8F81E0AE7AB00AACFD9 /* UIKit.framework */; };
+		C4C0A8FB1E0AE7B900AACFD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C0A8FA1E0AE7B900AACFD9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,17 @@
 		C4C0A8D01E0AE47000AACFD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4C0A8D21E0AE47000AACFD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4C0A8D31E0AE47000AACFD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4C0A8D51E0AE47000AACFD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4C0A8D61E0AE47000AACFD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C4C0A8D91E0AE47000AACFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C4C0A8DB1E0AE47000AACFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4C0A8DE1E0AE47000AACFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4C0A8E01E0AE47000AACFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C0A8E61E0AE5D700AACFD9 /* TelestraListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TelestraListItem.h; path = Classes/Model/TelestraListItem.h; sourceTree = "<group>"; };
+		C4C0A8E71E0AE5D700AACFD9 /* TelestraListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TelestraListItem.m; path = Classes/Model/TelestraListItem.m; sourceTree = "<group>"; };
+		C4C0A8E91E0AE5FB00AACFD9 /* TelestraListItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TelestraListItemManager.h; path = Classes/Model/TelestraListItemManager.h; sourceTree = "<group>"; };
+		C4C0A8EA1E0AE5FB00AACFD9 /* TelestraListItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TelestraListItemManager.m; path = Classes/Model/TelestraListItemManager.m; sourceTree = "<group>"; };
+		C4C0A8F11E0AE67F00AACFD9 /* TelestraCellListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TelestraCellListView.h; path = Classes/View/TelestraCellListView.h; sourceTree = "<group>"; };
+		C4C0A8F21E0AE67F00AACFD9 /* TelestraCellListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TelestraCellListView.m; path = Classes/View/TelestraCellListView.m; sourceTree = "<group>"; };
+		C4C0A8F41E0AE6BA00AACFD9 /* TelstraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TelstraViewController.h; path = Classes/Controller/TelstraViewController.h; sourceTree = "<group>"; };
+		C4C0A8F51E0AE6BA00AACFD9 /* TelstraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TelstraViewController.m; path = Classes/Controller/TelstraViewController.m; sourceTree = "<group>"; };
+		C4C0A8F81E0AE7AB00AACFD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4C0A8FA1E0AE7B900AACFD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C0A8FB1E0AE7B900AACFD9 /* Foundation.framework in Frameworks */,
+				C4C0A8F91E0AE7AB00AACFD9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				C4C0A8CE1E0AE47000AACFD9 /* TelstraApp */,
+				C4C0A8FE1E0AE7D700AACFD9 /* Frameworks */,
 				C4C0A8CD1E0AE47000AACFD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,14 +68,7 @@
 		C4C0A8CE1E0AE47000AACFD9 /* TelstraApp */ = {
 			isa = PBXGroup;
 			children = (
-				C4C0A8D21E0AE47000AACFD9 /* AppDelegate.h */,
-				C4C0A8D31E0AE47000AACFD9 /* AppDelegate.m */,
-				C4C0A8D51E0AE47000AACFD9 /* ViewController.h */,
-				C4C0A8D61E0AE47000AACFD9 /* ViewController.m */,
-				C4C0A8D81E0AE47000AACFD9 /* Main.storyboard */,
-				C4C0A8DB1E0AE47000AACFD9 /* Assets.xcassets */,
-				C4C0A8DD1E0AE47000AACFD9 /* LaunchScreen.storyboard */,
-				C4C0A8E01E0AE47000AACFD9 /* Info.plist */,
+				C4C0A8EC1E0AE60700AACFD9 /* Classes */,
 				C4C0A8CF1E0AE47000AACFD9 /* Supporting Files */,
 			);
 			path = TelstraApp;
@@ -74,9 +77,76 @@
 		C4C0A8CF1E0AE47000AACFD9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C4C0A8E01E0AE47000AACFD9 /* Info.plist */,
 				C4C0A8D01E0AE47000AACFD9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4C0A8EC1E0AE60700AACFD9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4C0A8F71E0AE6D600AACFD9 /* AppDelegate */,
+				C4C0A8ED1E0AE61100AACFD9 /* Model */,
+				C4C0A8EE1E0AE62600AACFD9 /* View */,
+				C4C0A8EF1E0AE62E00AACFD9 /* Controller */,
+				C4C0A8F01E0AE63800AACFD9 /* Images */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C4C0A8ED1E0AE61100AACFD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4C0A8E61E0AE5D700AACFD9 /* TelestraListItem.h */,
+				C4C0A8E71E0AE5D700AACFD9 /* TelestraListItem.m */,
+				C4C0A8E91E0AE5FB00AACFD9 /* TelestraListItemManager.h */,
+				C4C0A8EA1E0AE5FB00AACFD9 /* TelestraListItemManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C4C0A8EE1E0AE62600AACFD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4C0A8F11E0AE67F00AACFD9 /* TelestraCellListView.h */,
+				C4C0A8F21E0AE67F00AACFD9 /* TelestraCellListView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C4C0A8EF1E0AE62E00AACFD9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4C0A8F41E0AE6BA00AACFD9 /* TelstraViewController.h */,
+				C4C0A8F51E0AE6BA00AACFD9 /* TelstraViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C4C0A8F01E0AE63800AACFD9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C4C0A8F71E0AE6D600AACFD9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C4C0A8D21E0AE47000AACFD9 /* AppDelegate.h */,
+				C4C0A8D31E0AE47000AACFD9 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C4C0A8FE1E0AE7D700AACFD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4C0A8FA1E0AE7B900AACFD9 /* Foundation.framework */,
+				C4C0A8F81E0AE7AB00AACFD9 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C0A8DF1E0AE47000AACFD9 /* LaunchScreen.storyboard in Resources */,
-				C4C0A8DC1E0AE47000AACFD9 /* Assets.xcassets in Resources */,
-				C4C0A8DA1E0AE47000AACFD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +216,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C0A8D71E0AE47000AACFD9 /* ViewController.m in Sources */,
+				C4C0A8E81E0AE5D700AACFD9 /* TelestraListItem.m in Sources */,
+				C4C0A8EB1E0AE5FB00AACFD9 /* TelestraListItemManager.m in Sources */,
+				C4C0A8F31E0AE67F00AACFD9 /* TelestraCellListView.m in Sources */,
+				C4C0A8F61E0AE6BA00AACFD9 /* TelstraViewController.m in Sources */,
 				C4C0A8D41E0AE47000AACFD9 /* AppDelegate.m in Sources */,
 				C4C0A8D11E0AE47000AACFD9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C4C0A8D81E0AE47000AACFD9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4C0A8D91E0AE47000AACFD9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C4C0A8DD1E0AE47000AACFD9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4C0A8DE1E0AE47000AACFD9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C4C0A8E11E0AE47000AACFD9 /* Debug */ = {
